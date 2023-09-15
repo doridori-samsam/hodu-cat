@@ -11,7 +11,7 @@ function MainSection() {
       <div
         className={`${styles.mainLayout} justify-between flex-shrink h-full`}
       >
-        <div className="text-box flex flex-col justify-center border-2 border-solid gap-[2rem]">
+        <div className="text-box flex flex-col justify-center gap-[2rem]">
           <h1 className="font-spoqaBold text-[2rem] leading-10 whitespace-pre-line">
             {text.mainTitle}
           </h1>
@@ -22,7 +22,7 @@ function MainSection() {
           </p>
           <DownloadButton clickFunc={clickBtn} />
         </div>
-        <img src={bigCat} className="w-[14rem] h-full order-1" />
+        <img src={bigCat} className="w-[15rem] h-full order-1" />
       </div>
     </section>
   );
