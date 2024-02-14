@@ -192,7 +192,3 @@ body {
   clip: rect(0 0 0 0);
   color: #ed9676;
 }
-
-.bottom-clip {
-  clip: rect();
-}
