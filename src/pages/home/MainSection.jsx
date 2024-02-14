@@ -1,4 +1,3 @@
-import DownloadButton from "../../components/DownloadButton";
 import text from "../../constants/text";
 import styles from "../../style";
 import bigCat from "../../assets/images/main_cat.svg";
@@ -8,7 +7,7 @@ function MainSection() {
   }
   return (
     <section className={`${styles.flexCenter} bg-background h-[60vh] w-full`}>
-      <div
+      {/* <div
         className={`${styles.mainLayout} justify-between flex-shrink h-full`}
       >
         <div className="text-box flex flex-col justify-center gap-[2rem]">
@@ -23,7 +22,7 @@ function MainSection() {
           <DownloadButton clickFunc={clickBtn} />
         </div>
         <img src={bigCat} className="w-[15rem] h-full order-1" />
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -1,25 +1,11 @@
-import MainSection from "./MainSection";
+import MainBanner from "./MainBanner";
+import Dummy from "../articles/HeadLine";
+import styles from "@/style";
 
 function Home() {
   return (
     <>
-      <MainSection />
-      <div className="h-[10rem]">
-        <p>안녕하세요</p>
-      </div>
-      <div className="h-[10rem]">
-        <p>안녕하세요</p>
-      </div>
-      <div className="h-[10rem]">
-        <p>안녕하세요</p>
-      </div>
-      <div className="h-[10rem]">
-        <p>안녕하세요</p>
-      </div>
-      <div className="h-[10rem]">
-        <p>안녕하세요</p>
-      </div>
-      <MainSection />
+      <MainBanner />
     </>
   );
 }

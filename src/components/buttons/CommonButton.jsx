@@ -1,14 +1,13 @@
-import React from "react";
-
-function DownloadButton({ clickFunc }) {
+function CommonButton({ children, onClick, rest }) {
   return (
     <button
       className="w-fit px-[1.5rem] py-[0.5rem] rounded-full font-spoqaBold text-white bg-accent hover:bg-accentHover"
-      onClick={clickFunc}
+      onClick={onClick}
+      {...rest}
     >
-      Download
+      {children}
     </button>
   );
 }
 
-export default DownloadButton;
+export default CommonButton;
